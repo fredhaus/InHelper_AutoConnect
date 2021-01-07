@@ -25,15 +25,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.instagram.com/*"
-      ],
-      "css": [
-        "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://www.instagram.com/*"
+        "https://www.instagram.com/explore/tags/*"
       ],
       "js": [
         "src/inject/inject.js"
