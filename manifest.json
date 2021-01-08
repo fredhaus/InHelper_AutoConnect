@@ -25,7 +25,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.instagram.com/explore/tags/*"
+        "https://www.linkedin.com/in/*"
       ],
       "js": [
         "src/inject/inject.js"
